@@ -20,7 +20,7 @@ export const myCompSchema = z.object({
 });
 
 export const HelloWorld: React.FC<z.infer<typeof myCompSchema>> = ({
-  titleText: propOne,
+  titleText: "Welcome Imane ✨",
   titleColor: propTwo,
   logoColor1,
   logoColor2,
